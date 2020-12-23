@@ -10,7 +10,12 @@ export default function Product(props) {
                 {product.name}                 X
                 
             </div>    
+            
             <button>+</button>
+               <div>1</div>
+            <button>-</button>
+            
+            <div className="price">$10</div>
         </div>
     )
 }
